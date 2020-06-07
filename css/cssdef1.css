@@ -1,0 +1,338 @@
+a.interwiki {
+    background: transparent url(../png/interwiki.png) 0px 1px no-repeat;
+    padding-left: 16px;
+}
+a.iw_wp {
+    background-image: url(../gif/wp.gif);
+}
+a.iw_wpde {
+    background-image: url(../gif/wpde.gif);
+}
+a.iw_wpmeta {
+    background-image: url(../gif/wpmeta.gif);
+}
+a.iw_doku {
+    background-image: url(../gif/doku.gif);
+}
+a.iw_sb {
+    background-image: url(../gif/sb.gif);
+}
+a.iw_amazon {
+    background-image: url(../gif/amazon.html);
+}
+a.iw_amazon_de {
+    background-image: url(../gif/amazon.de.html);
+}
+a.iw_amazon_uk {
+    background-image: url(../gif/amazon.uk.html);
+}
+a.iw_phpfn {
+    background-image: url(../gif/phpfn.gif);
+}
+a.iw_dokubug {
+    background-image: url(../gif/dokubug.gif);
+}
+a.iw_coral {
+    background-image: url(../gif/coral.gif);
+}
+a.iw_google {
+    background-image: url(../gif/google.gif);
+}
+a.iw_meatball {
+    background-image: url(../gif/meatball.gif);
+}
+a.iw_wiki {
+    background-image: url(../gif/wiki.gif);
+}
+a.mediafile {
+    background: transparent url(../png/file.png) 0px 1px no-repeat;
+    padding-bottom: 1px;
+    padding-left: 18px;
+}
+a.mf_jpg {
+    background-image: url(../png/jpg.png);
+}
+a.mf_jpeg {
+    background-image: url(../png/jpeg.png);
+}
+a.mf_gif {
+    background-image: url(../png/gif.png);
+}
+a.mf_png {
+    background-image: url(../png/png.png);
+}
+a.mf_tgz {
+    background-image: url(../png/tgz.png);
+}
+a.mf_tar {
+    background-image: url(../png/tar.png);
+}
+a.mf_gz {
+    background-image: url(../png/gz.png);
+}
+a.mf_zip {
+    background-image: url(../png/zip.png);
+}
+a.mf_rar {
+    background-image: url(../png/rar.png);
+}
+a.mf_pdf {
+    background-image: url(../png/pdf.png);
+}
+a.mf_ps {
+    background-image: url(../png/ps.png);
+}
+a.mf_doc {
+    background-image: url(../png/doc.png);
+}
+a.mf_xls {
+    background-image: url(../png/xls.png);
+}
+a.mf_ppt {
+    background-image: url(../png/ppt.png);
+}
+a.mf_rtf {
+    background-image: url(../png/rtf.png);
+}
+a.mf_swf {
+    background-image: url(../png/swf.png);
+}
+a.mf_rpm {
+    background-image: url(../png/rpm.png);
+}
+a.mf_deb {
+    background-image: url(../png/deb.png);
+}
+a.mf_sxw {
+    background-image: url(../png/sxw.png);
+}
+a.mf_sxc {
+    background-image: url(../png/sxc.png);
+}
+a.mf_sxi {
+    background-image: url(../png/sxi.png);
+}
+a.mf_sxd {
+    background-image: url(../png/sxd.png);
+}
+a.mf_odc {
+    background-image: url(../png/odc.png);
+}
+a.mf_odf {
+    background-image: url(../png/odf.png);
+}
+a.mf_odg {
+    background-image: url(../png/odg.png);
+}
+a.mf_odi {
+    background-image: url(../png/odi.png);
+}
+a.mf_odp {
+    background-image: url(../png/odp.png);
+}
+a.mf_ods {
+    background-image: url(../png/ods.png);
+}
+a.mf_odt {
+    background-image: url(../png/odt.png);
+}
+body {
+    background-color: White;
+    color: Black;
+    font: 10pt "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+}
+table {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+tr,td,th {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0;
+}
+a {
+    background: none !important;
+    color: #000;
+    text-decoration: none;
+}
+div.meta {
+    clear: both;
+    font-size: 70%;
+    margin-top: 1em;
+    text-align: right;
+}
+div.notify,div.info,div.success,div.error,div.breadcrumbs,div.secedit {
+    display: none;
+}
+a.urlextern:after {
+    content: " [" attr(href) "]";
+    font-size: 90%;
+}
+a.interwiki:after {
+    content: " [" attr(href) "]";
+    font-size: 90%;
+}
+a.mail:after {
+    content: " [" attr(href) "]";
+    font-size: 90%;
+}
+a.wikilink1 {
+    text-decoration: underline;
+}
+div.page {
+    text-align: justify;
+}
+h1,h2,h3,h4,h5 {
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    clear: left;
+    color: Black;
+    font-family: "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.5em;
+}
+h1 {
+    font-size: 160%;
+    font-weight: bold;
+}
+h2 {
+    font-size: 150%;
+}
+h3 {
+    border-bottom: none;
+    font-size: 140%;
+}
+h4 {
+    border-bottom: none;
+    font-size: 120%;
+}
+h5 {
+    border-bottom: none;
+    font-size: 100%;
+}
+img.media {
+    margin: 3px;
+}
+img.medialeft {
+    border: 0;
+    float: left;
+    margin: 0 1.5em 0 0;
+}
+img.mediaright {
+    border: 0;
+    float: right;
+    margin: 0 0 0 1.5em;
+}
+ul {
+    line-height: 1.5em;
+    list-style-type: square;
+    margin: 0 0 0.5em 1.5em;
+    padding: 0;
+}
+ol {
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0 0 0.5em 2.5em;
+    padding: 0;
+}
+ol ol {
+    margin: 0 0 0.5em 1.5em;
+}
+div.dokuwiki ol {
+    list-style-type: decimal;
+}
+div.dokuwiki ol ol {
+    list-style-type: upper-roman;
+}
+div.dokuwiki ol ol ol {
+    list-style-type: lower-alpha;
+}
+div.dokuwiki ol ol ol ol {
+    list-style-type: lower-greek;
+}
+span.li {
+    font-weight: normal;
+}
+pre.pre {
+    border: 1px dashed #000;
+    color: Black;
+    font-size: 8pt;
+    overflow: visible;
+    padding: 0.5em;
+}
+pre.code {
+    border: 1px dashed #000;
+    color: Black;
+    font-size: 8pt;
+    overflow: visible;
+    padding: 0.5em;
+}
+code {
+    font-size: 120%;
+}
+pre.file {
+    border: 1px dotted #000;
+    color: Black;
+    font-size: 8pt;
+    overflow: visible;
+    padding: 0.5em;
+}
+div.footnotes {
+    border-top: 1px solid #000;
+    clear: both;
+    margin-top: 1em;
+    padding-left: 1em;
+}
+div.fn {
+    font-size: 90%;
+}
+a.fn_top {
+    font-size: 80%;
+    vertical-align: super;
+}
+a.fn_bot {
+    font-size: 80%;
+    font-weight: bold;
+    vertical-align: super;
+}
+acronym {
+    border: 0;
+}
+table.inline {
+    background-color: #fff;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-size: 80%;
+}
+table.inline th {
+    border: 1px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 3px;
+}
+table.inline td {
+    border: 1px solid #000;
+    padding: 3px;
+}
+.leftalign {
+    text-align: left;
+}
+.centeralign {
+    text-align: center;
+}
+.rightalign {
+    text-align: right;
+}
+.toc,.footerinc,.header,.bar,.user {
+    display: none;
+}
